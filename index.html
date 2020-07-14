@@ -1,34 +1,103 @@
 <!DOCTYPE html>
-<hmtl>
+<hmtl lang="en">
 
   <head>
-    <title>About ME!!!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me!</title>
+     <style>
 
+      body {
+        background-color: rgba(240, 136, 240, 0.3);
+      }
+
+      #myHeading{
+        color: rgb(255, 85, 23);
+        text-align: center;
+        font-family: sans-serif;
+        background-color: rgba(60, 142, 224, 0.5);
+      }
+
+      .imgMargin{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-content: center;
+      }
+
+      .imgBorder{
+        border-style: ridge;
+        border-color: rgba(60, 142, 224, 0.5);
+        border-width: 10px;
+      }
+
+      .subText{
+        color: rgb(60, 142, 224);
+        font-size: large;
+      }
+
+      .center{
+        text-align: center;
+      }
+
+
+     </style>
   </head>
 
   <body>
-   <h1 style="text-align: center;">About Me: Daniel Ayala</h1>
 
-   <p>I was born and raised in Southern California and still live here today.</p>
-    <img src="https://s3-us-west-2.amazonaws.com/media-tentree-com/wp-content/uploads/2015/06/4-newport-pier.jpg" alt="socal" style="height: 300px;">
-   <img src="http://dawn2dawnphotography.files.wordpress.com/2014/01/california-sunset_6681.jpg" alt="socalDes" style="height: 300px;">
+   <h1 id="myHeading">About Me: Daniel Ayala</h1>
 
-   <p>I recently graduated High school in the top few of the class and have been admitted to the <b>University of California Irvine for Software Engineering</b></p>
-    <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0024/8863/brand.gif?itok=ngZCxHGF" alt="irvine" style="height: 200 px;">
+   <p class="subText center">I was born and raised in Southern California and still live here today.</p>
+  
+   <div class="center">
+   <img class="imgMargin imgBorder center" src="https://s3-us-west-2.amazonaws.com/media-tentree-com/wp-content/uploads/2015/06/4-newport-pier.jpg" alt="socal" style="height: 300px; ">
+   <img class="imgMargin imgBorder" src="http://dawn2dawnphotography.files.wordpress.com/2014/01/california-sunset_6681.jpg" alt="socalDes" style="height: 300px;">
+    </div>
 
-   <p>I played the Trumpet and the Tuba as well as ran Cross Country, Played Tennis, and competed in Mountain Biking</p>
-    <img src="https://capitolmusic.files.wordpress.com/2013/07/trumpet-2.jpg" alt="Trumpet" style=" height: 200px;"> 
-     <img src="https://cdn.dribbble.com/users/339160/screenshots/3562261/xc.png" alt="Run" style="height: 200px;">
-    <img src="https://mindsparklemag.com/wp-content/uploads/2018/10/tennis-art-direction-illustration-digital-art-design-graphic-digital-photography-mindsparkle-mag-2.jpg" alt="tennis" style="height: 200px;">
-    <img src="https://th.bing.com/th/id/OIP.x-qmSYIcBQl499nmzg_L1wHaFM?pid=Api&rs=1" alt="biking" style="height: 200px;">
-    <p>I am into all types of music but here are some favorites.</p>
+   <p class="subText center">I recently graduated High school in the top few of the class and have been admitted to the <b>University of California Irvine for Software Engineering</b></p>
+ 
+   <div class="center">
+   <img class="imgMargin imgBorder" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0024/8863/brand.gif?itok=ngZCxHGF" alt="irvine" style="height: 200 px;">
+    <!-- highschool acievements -->
+   <p class="subText center">I played the Trumpet and the Tuba as well as ran Cross Country, Played Tennis, and competed in Mountain Biking</p>
+   
+   <img class="imgMargin imgBorder" src="https://capitolmusic.files.wordpress.com/2013/07/trumpet-2.jpg" alt="Trumpet" style=" height: 200px;"> 
+     <img class="imgMargin imgBorder" src="https://cdn.dribbble.com/users/339160/screenshots/3562261/xc.png" alt="Run" style="height: 200px;">
+    <img class="imgMargin imgBorder" src="https://mindsparklemag.com/wp-content/uploads/2018/10/tennis-art-direction-illustration-digital-art-design-graphic-digital-photography-mindsparkle-mag-2.jpg" alt="tennis" style="height: 200px;">
+    <img class="imgMargin imgBorder" src="https://th.bing.com/th/id/OIP.x-qmSYIcBQl499nmzg_L1wHaFM?pid=Api&rs=1" alt="biking" style="height: 200px;">
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vQ9QtJ72fVc" frameborder="0"
+   </div>
+
+    <!-- music videos -->
+    <p class="subText center">I am into all types of music but here are some favorites.</p>
+
+   <div class="center">
+    
+    <iframe class="imgMargin imgBorder" width="560" height="315" src="https://www.youtube.com/embed/vQ9QtJ72fVc" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PRXtbLqIx04" frameborder="0"
+    <iframe class="imgMargin imgBorder" width="560" height="315" src="https://www.youtube.com/embed/PRXtbLqIx04" frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <q>Live as though you mean it</q>
+  
+  </div>
+    <!-- Quote  -->
+    <br>
+    <br>
+    <div class="center">
+    <q >Live as though you mean it</q>
+    </div>
+    <br>
+    <br>
+   
+    <!-- Music suggestion input -->
+    <div class="center">
+    <input type="text" placeholder="Type me your favorite song!" class="quote" style="margin-bottom: 50px;">
+      </div>
+  
+  
+  
   </body>
 
 
